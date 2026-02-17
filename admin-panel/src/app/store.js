@@ -4,14 +4,6 @@ import categoriesReducer from "../features/categories/categoriesSlice"
 import relationReducer from "../features/relations/relationSlice"
 
 
-reducer: {
-  animals: animalsReducer
-}
-
-reducer: {
-  categories: categoriesReducer
-}
-
 export const store = configureStore({
   reducer: {
     animals: animalsReducer,
